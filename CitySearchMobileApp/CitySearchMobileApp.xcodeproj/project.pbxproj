@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3297C126B6E3AC00FBC143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297C026B6E3AC00FBC143 /* AppDelegate.swift */; };
+		7E3297C326B6E3AC00FBC143 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297C226B6E3AC00FBC143 /* SceneDelegate.swift */; };
+		7E3297C526B6E3AC00FBC143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297C426B6E3AC00FBC143 /* ViewController.swift */; };
+		7E3297C826B6E3AC00FBC143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3297C626B6E3AC00FBC143 /* Main.storyboard */; };
+		7E3297CA26B6E3AF00FBC143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3297C926B6E3AF00FBC143 /* Assets.xcassets */; };
+		7E3297CD26B6E3AF00FBC143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3297CB26B6E3AF00FBC143 /* LaunchScreen.storyboard */; };
+		7E3297D826B6E3AF00FBC143 /* CitySearchMobileAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297D726B6E3AF00FBC143 /* CitySearchMobileAppTests.swift */; };
+		7E3297E326B6E3AF00FBC143 /* CitySearchMobileAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297E226B6E3AF00FBC143 /* CitySearchMobileAppUITests.swift */; };
+		7E3297F726B6EA1D00FBC143 /* CitySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297F626B6EA1D00FBC143 /* CitySearchModel.swift */; };
+		7E3297FC26B6EA3200FBC143 /* CitySearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297FB26B6EA3200FBC143 /* CitySearchService.swift */; };
+		7E3297FD26B6EA3200FBC143 /* CitySearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297FB26B6EA3200FBC143 /* CitySearchService.swift */; };
+		7E3297FE26B6EA3200FBC143 /* CitySearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3297FB26B6EA3200FBC143 /* CitySearchService.swift */; };
+		7E32980326B6EEC900FBC143 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32980226B6EEC900FBC143 /* CityTableViewCell.swift */; };
+		7E32980426B6EEC900FBC143 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32980226B6EEC900FBC143 /* CityTableViewCell.swift */; };
+		7E32980526B6EEC900FBC143 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32980226B6EEC900FBC143 /* CityTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3297D426B6E3AF00FBC143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3297B526B6E3AC00FBC143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3297BC26B6E3AC00FBC143;
+			remoteInfo = CitySearchMobileApp;
+		};
+		7E3297DF26B6E3AF00FBC143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3297B526B6E3AC00FBC143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3297BC26B6E3AC00FBC143;
+			remoteInfo = CitySearchMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E3297BD26B6E3AC00FBC143 /* CitySearchMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySearchMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3297C026B6E3AC00FBC143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3297C226B6E3AC00FBC143 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E3297C426B6E3AC00FBC143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E3297C726B6E3AC00FBC143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3297C926B6E3AF00FBC143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3297CC26B6E3AF00FBC143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3297CE26B6E3AF00FBC143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3297D326B6E3AF00FBC143 /* CitySearchMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitySearchMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3297D726B6E3AF00FBC143 /* CitySearchMobileAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchMobileAppTests.swift; sourceTree = "<group>"; };
+		7E3297D926B6E3AF00FBC143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3297DE26B6E3AF00FBC143 /* CitySearchMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitySearchMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3297E226B6E3AF00FBC143 /* CitySearchMobileAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchMobileAppUITests.swift; sourceTree = "<group>"; };
+		7E3297E426B6E3AF00FBC143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3297F626B6EA1D00FBC143 /* CitySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchModel.swift; sourceTree = "<group>"; };
+		7E3297FB26B6EA3200FBC143 /* CitySearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchService.swift; sourceTree = "<group>"; };
+		7E32980226B6EEC900FBC143 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3297BA26B6E3AC00FBC143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297D026B6E3AF00FBC143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297DB26B6E3AF00FBC143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3297B426B6E3AC00FBC143 = {
+			isa = PBXGroup;
+			children = (
+				7E3297BF26B6E3AC00FBC143 /* CitySearchMobileApp */,
+				7E3297D626B6E3AF00FBC143 /* CitySearchMobileAppTests */,
+				7E3297E126B6E3AF00FBC143 /* CitySearchMobileAppUITests */,
+				7E3297BE26B6E3AC00FBC143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3297BE26B6E3AC00FBC143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3297BD26B6E3AC00FBC143 /* CitySearchMobileApp.app */,
+				7E3297D326B6E3AF00FBC143 /* CitySearchMobileAppTests.xctest */,
+				7E3297DE26B6E3AF00FBC143 /* CitySearchMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3297BF26B6E3AC00FBC143 /* CitySearchMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E3297C026B6E3AC00FBC143 /* AppDelegate.swift */,
+				7E3297C226B6E3AC00FBC143 /* SceneDelegate.swift */,
+				7E3297C426B6E3AC00FBC143 /* ViewController.swift */,
+				7E3297C626B6E3AC00FBC143 /* Main.storyboard */,
+				7E3297C926B6E3AF00FBC143 /* Assets.xcassets */,
+				7E3297CB26B6E3AF00FBC143 /* LaunchScreen.storyboard */,
+				7E3297CE26B6E3AF00FBC143 /* Info.plist */,
+				7E3297F626B6EA1D00FBC143 /* CitySearchModel.swift */,
+				7E3297FB26B6EA3200FBC143 /* CitySearchService.swift */,
+				7E32980226B6EEC900FBC143 /* CityTableViewCell.swift */,
+			);
+			path = CitySearchMobileApp;
+			sourceTree = "<group>";
+		};
+		7E3297D626B6E3AF00FBC143 /* CitySearchMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3297D726B6E3AF00FBC143 /* CitySearchMobileAppTests.swift */,
+				7E3297D926B6E3AF00FBC143 /* Info.plist */,
+			);
+			path = CitySearchMobileAppTests;
+			sourceTree = "<group>";
+		};
+		7E3297E126B6E3AF00FBC143 /* CitySearchMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3297E226B6E3AF00FBC143 /* CitySearchMobileAppUITests.swift */,
+				7E3297E426B6E3AF00FBC143 /* Info.plist */,
+			);
+			path = CitySearchMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3297BC26B6E3AC00FBC143 /* CitySearchMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3297E726B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileApp" */;
+			buildPhases = (
+				7E3297B926B6E3AC00FBC143 /* Sources */,
+				7E3297BA26B6E3AC00FBC143 /* Frameworks */,
+				7E3297BB26B6E3AC00FBC143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitySearchMobileApp;
+			productName = CitySearchMobileApp;
+			productReference = 7E3297BD26B6E3AC00FBC143 /* CitySearchMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3297D226B6E3AF00FBC143 /* CitySearchMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3297EA26B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileAppTests" */;
+			buildPhases = (
+				7E3297CF26B6E3AF00FBC143 /* Sources */,
+				7E3297D026B6E3AF00FBC143 /* Frameworks */,
+				7E3297D126B6E3AF00FBC143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3297D526B6E3AF00FBC143 /* PBXTargetDependency */,
+			);
+			name = CitySearchMobileAppTests;
+			productName = CitySearchMobileAppTests;
+			productReference = 7E3297D326B6E3AF00FBC143 /* CitySearchMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E3297DD26B6E3AF00FBC143 /* CitySearchMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3297ED26B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileAppUITests" */;
+			buildPhases = (
+				7E3297DA26B6E3AF00FBC143 /* Sources */,
+				7E3297DB26B6E3AF00FBC143 /* Frameworks */,
+				7E3297DC26B6E3AF00FBC143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3297E026B6E3AF00FBC143 /* PBXTargetDependency */,
+			);
+			name = CitySearchMobileAppUITests;
+			productName = CitySearchMobileAppUITests;
+			productReference = 7E3297DE26B6E3AF00FBC143 /* CitySearchMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3297B526B6E3AC00FBC143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7E3297BC26B6E3AC00FBC143 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7E3297D226B6E3AF00FBC143 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7E3297BC26B6E3AC00FBC143;
+					};
+					7E3297DD26B6E3AF00FBC143 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7E3297BC26B6E3AC00FBC143;
+					};
+				};
+			};
+			buildConfigurationList = 7E3297B826B6E3AC00FBC143 /* Build configuration list for PBXProject "CitySearchMobileApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3297B426B6E3AC00FBC143;
+			productRefGroup = 7E3297BE26B6E3AC00FBC143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3297BC26B6E3AC00FBC143 /* CitySearchMobileApp */,
+				7E3297D226B6E3AF00FBC143 /* CitySearchMobileAppTests */,
+				7E3297DD26B6E3AF00FBC143 /* CitySearchMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3297BB26B6E3AC00FBC143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3297CD26B6E3AF00FBC143 /* LaunchScreen.storyboard in Resources */,
+				7E3297CA26B6E3AF00FBC143 /* Assets.xcassets in Resources */,
+				7E3297C826B6E3AC00FBC143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297D126B6E3AF00FBC143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297DC26B6E3AF00FBC143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3297B926B6E3AC00FBC143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E32980326B6EEC900FBC143 /* CityTableViewCell.swift in Sources */,
+				7E3297F726B6EA1D00FBC143 /* CitySearchModel.swift in Sources */,
+				7E3297FC26B6EA3200FBC143 /* CitySearchService.swift in Sources */,
+				7E3297C526B6E3AC00FBC143 /* ViewController.swift in Sources */,
+				7E3297C126B6E3AC00FBC143 /* AppDelegate.swift in Sources */,
+				7E3297C326B6E3AC00FBC143 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297CF26B6E3AF00FBC143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E32980426B6EEC900FBC143 /* CityTableViewCell.swift in Sources */,
+				7E3297FD26B6EA3200FBC143 /* CitySearchService.swift in Sources */,
+				7E3297D826B6E3AF00FBC143 /* CitySearchMobileAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3297DA26B6E3AF00FBC143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E32980526B6EEC900FBC143 /* CityTableViewCell.swift in Sources */,
+				7E3297FE26B6EA3200FBC143 /* CitySearchService.swift in Sources */,
+				7E3297E326B6E3AF00FBC143 /* CitySearchMobileAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3297D526B6E3AF00FBC143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3297BC26B6E3AC00FBC143 /* CitySearchMobileApp */;
+			targetProxy = 7E3297D426B6E3AF00FBC143 /* PBXContainerItemProxy */;
+		};
+		7E3297E026B6E3AF00FBC143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3297BC26B6E3AC00FBC143 /* CitySearchMobileApp */;
+			targetProxy = 7E3297DF26B6E3AF00FBC143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E3297C626B6E3AC00FBC143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3297C726B6E3AC00FBC143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3297CB26B6E3AF00FBC143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3297CC26B6E3AF00FBC143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3297E526B6E3AF00FBC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3297E626B6E3AF00FBC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3297E826B6E3AF00FBC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E3297E926B6E3AF00FBC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E3297EB26B6E3AF00FBC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitySearchMobileApp.app/CitySearchMobileApp";
+			};
+			name = Debug;
+		};
+		7E3297EC26B6E3AF00FBC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitySearchMobileApp.app/CitySearchMobileApp";
+			};
+			name = Release;
+		};
+		7E3297EE26B6E3AF00FBC143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitySearchMobileApp;
+			};
+			name = Debug;
+		};
+		7E3297EF26B6E3AF00FBC143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CitySearchMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhinavMandloi1410.CitySearchMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitySearchMobileApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3297B826B6E3AC00FBC143 /* Build configuration list for PBXProject "CitySearchMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3297E526B6E3AF00FBC143 /* Debug */,
+				7E3297E626B6E3AF00FBC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3297E726B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3297E826B6E3AF00FBC143 /* Debug */,
+				7E3297E926B6E3AF00FBC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3297EA26B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3297EB26B6E3AF00FBC143 /* Debug */,
+				7E3297EC26B6E3AF00FBC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3297ED26B6E3AF00FBC143 /* Build configuration list for PBXNativeTarget "CitySearchMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3297EE26B6E3AF00FBC143 /* Debug */,
+				7E3297EF26B6E3AF00FBC143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3297B526B6E3AC00FBC143 /* Project object */;
+}
